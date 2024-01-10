@@ -1,4 +1,4 @@
-# node-webtest-basic
+# node-webtest-basic.js
 
 To create a Node.js project for web testing using Selenium WebDriver, assert, and Mocha, you can follow these steps:
 
