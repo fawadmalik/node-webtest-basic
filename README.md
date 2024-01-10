@@ -5,8 +5,8 @@ To create a Node.js project for web testing using Selenium WebDriver, assert, an
 1. **Make and change to project directory:**
 	Run the following commands from your commandline
    ```bash
-   mkdir node-webtesting-basic
-   cd node-webtesting-basic
+   mkdir node-webtest-basic
+   cd node-webtest-basic
    ```
    
 1. **Initialize a Node.js project:**
