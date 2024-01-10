@@ -28,17 +28,19 @@ To create a Node.js project for web testing using Selenium WebDriver, assert, an
 
    ```
    ├── test
-   |   └── test_checkboxes.js
+   |   └── checkboxes_test.js
    ├── .gitignore
    └── package.json
    ```
 
-   Create the `test` directory and a `test_checkboxes.js` file inside it.
+   Create the `test` directory and a `checkboxes_test.js` file inside it.
 
-4. **Edit your `test.js` file:**
+4. **Edit your `checkboxes_test.js` file:**
    In your `test_checkboxes.js` file, add the following code to create a basic test that visits the given webpage and asserts that the two checkboxes have opposite states:
 
    ```javascript
+   // test/checkboxes_test
+   
    const { Builder, By, Key, until } = require('selenium-webdriver');
    const assert = require('assert');
    const { describe, it, afterEach } = require('mocha');
